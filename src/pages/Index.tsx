@@ -9,6 +9,7 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import profile from "@/assets/profile.jpg";
 import profile2 from "@/assets/pro.jpg";
+import ServiceTimeline from "@/components/ServiceTimeline";
 
 const Index = () => {
   const bookingRef = useRef<HTMLElement>(null);
@@ -136,6 +137,7 @@ const Index = () => {
           </div>
         </div>
       </section>
+      
 
       <section id="our-works" className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -211,7 +213,7 @@ const Index = () => {
           <BookingForm />
         </div>
       </section>
-
+      <ServiceTimeline />
       <Services />
       <Footer />
     </div>
