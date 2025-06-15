@@ -17,7 +17,7 @@ import {
 } from "@/components/ui/dialog";
 
 const img1 = "https://images.unsplash.com/photo-1715848504087-11a748ce0058?";
-import img3 from "../../public/accupuncture.png";
+import img3 from "/accupuncture.png";
 gsap.registerPlugin(ScrollTrigger);
 
 interface HeroProps {
