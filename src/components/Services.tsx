@@ -141,9 +141,11 @@ const Services = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-12">
+          <a href='#booking' >
           <button className="px-8 py-4 bg-gradient-to-r from-rose-500 to-pink-500 text-white font-semibold rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 transform">
             Book Your Appointment
           </button>
+          </a>
         </div>
       </div>
     </section>
