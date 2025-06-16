@@ -10,16 +10,12 @@ import BookingForm from "@/components/BookingForm";
 import ServiceTimeline from "@/components/ServiceTimeline";
 import profile from "@/assets/profile.jpg";
 import bgimage from "../../public/rose.png"
-const makeupArtistImg = "https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80";
-const spaRoomImg = "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80";
 const rosePetalsBgImg = bgimage;
 gsap.registerPlugin(ScrollTrigger);
 
 const Index = () => {
   const bookingRef = useRef<HTMLElement>(null);
   const sectionRefs = useRef<(HTMLElement | null)[]>([]);
-  const floatingElementsRef = useRef<HTMLDivElement>(null);
-
   // Animations setup
   useEffect(() => {
     // Animate sections on scroll
@@ -240,7 +236,7 @@ const Index = () => {
         </div>
       </div>
       <div className="relative order-1 md:order-2">
-        <div className="feature-card bg-white p-8 md:p-10 rounded-2xl shadow-sm hover:shadow-md transition-all duration-500 border-l-4 border-amber-500 hover:-translate-y-1">
+        <div className="feature-card bg-white p-8 md:p-10 rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 border-l-4 border-amber-500 hover:-translate-y-1">
           <h3 className="text-2xl md:text-3xl font-serif font-medium mb-6 text-gray-800">
             Beauty Therapy Certification
           </h3>
@@ -470,7 +466,7 @@ const Index = () => {
       </section>
       
       <ServiceTimeline />
-      <Services />
+      <Services/>
       <Footer />
       
       <style>{`

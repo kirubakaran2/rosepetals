@@ -74,18 +74,6 @@ const Hero = ({ onBookNowClick }: HeroProps) => {
         delay: 1,
         ease: "elastic.out(1, 0.5)",
       });
-
-      gsap.from(".hero-slider", {
-        y: 100,
-        opacity: 0,
-        duration: 1.2,
-        delay: 1.3,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: ".hero-slider",
-          start: "top 80%",
-        },
-      });
     }, heroRef);
 
     return () => ctx.revert();
