@@ -92,12 +92,12 @@ const ServicesTimeline = () => {
                 icon: "❋"
               },
               {
-                title: "Luxury Spa Services",
-                description: "Premium treatments for ultimate relaxation",
+                title: "Hair Treatments",
+                description: "Revitalize your hair with our expert care",
                 icon: "✦"
               },
               {
-                title: "Extraordinary Care",
+                title: "Skin Care",
                 description: "Personalized attention to every detail",
                 icon: "❈"
               }
