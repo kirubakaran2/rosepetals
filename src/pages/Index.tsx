@@ -168,8 +168,6 @@ const Index = () => {
       <section id="services">
                     <Services/>
       </section>
-
-
       {/* Courses Section */}
 <section 
   id="courses" 
