@@ -18,6 +18,7 @@ const Navbar = () => {
   const menuItems = [
     { name: "Home", href: "#home" },
     { name: "Why Us", href: "#why-us" },
+    { name: "Services", href: "#services" },
     { name: "Courses", href: "#courses" },
     { name: "Acupuncture", href: "#acupuncture" },
     { name: "About", href: "#about" },

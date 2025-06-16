@@ -165,6 +165,10 @@ const Index = () => {
           </div>
         </div>
       </section>
+      <section id="services">
+                    <Services/>
+      </section>
+
 
       {/* Courses Section */}
 <section 
@@ -433,7 +437,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-
+            <ServiceTimeline />
       {/* Booking Section */}
       <section 
         id="booking" 
@@ -464,9 +468,6 @@ const Index = () => {
           <BookingForm />
         </div>
       </section>
-      
-      <ServiceTimeline />
-      <Services/>
       <Footer />
       
       <style>{`
